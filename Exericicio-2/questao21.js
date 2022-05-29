@@ -5,6 +5,5 @@ function menorNumero(lista) {
             menor = i;
         };
     };
-    console.log(menor);
+    return (menor);
 };
-menorNumero([3,3,1,0,-4])

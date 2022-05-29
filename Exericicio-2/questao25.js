@@ -27,7 +27,5 @@ function buscarPalavrasSemelhantes(palavra, array) {
             }
         }
     }
-    console.log(similares);
+    return (similares);
 }
-
-buscarPalavrasSemelhantes("pro", ["programacao", "mobile", "profissional"])

@@ -5,5 +5,5 @@ function contarCaractere(caracter, string) {
             count++;
         };
     };
-    console.log(count);
+    return (count);
 };

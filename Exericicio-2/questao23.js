@@ -5,5 +5,5 @@ function contarPalavras(frase) {
             countPalavras++;
         };
     };
-    console.log(countPalavras);
+    return (countPalavras);
 };

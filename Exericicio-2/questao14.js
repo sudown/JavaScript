@@ -6,7 +6,5 @@ function objetoParaArray(objeto) {
         arrayInterno.push(objeto[i]);
         saida.push(arrayInterno);
     };
-    console.log(saida);
+    return (saida);
 };
-
-objetoParaArray({codigo: 11111, preco: 2000});

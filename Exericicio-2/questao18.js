@@ -7,9 +7,5 @@ function despesasTotais(array) {
             };
         };
     };
-    console.log(soma);
+    return (soma);
 };
-
-despesasTotais([{nome: "jornal", categoria: "informação", preco: 3},
-                {nome: "cafe", categoria: "alimento", preco: 3}
-])

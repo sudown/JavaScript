@@ -5,5 +5,5 @@ function filtrarNumeros(array) {
             saida.push(i);
         };
     };
-    console.log(saida);
+    return (saida);
 };

@@ -4,7 +4,5 @@ function calcularMedia(lista) {
         media += i;
     };
     media = media / lista.length;
-    console.log(media);
+    return (media);
 };
-
-calcularMedia([1,1,2,3,5,8,13]);

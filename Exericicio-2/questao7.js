@@ -4,17 +4,17 @@ function estaEntre(numero, minimo, maximo, inclusivo) {
             console.log(true);      
         }
         else {
-            console.log(false);
+            return (false);
         };
     }
     else {
         if (numero > minimo && numero < maximo) {
-            console.log(true);
+            return (true);
         }
         else {
-            console.log(false);
+            return (false);
         }
     }
 }
 
-estaEntre(3, 150, 3, true)
+console.log(estaEntre(3, 150, 3, true));

@@ -3,5 +3,5 @@ function simboloMais(num) {
     for (i=0;i<num;i++) {
         saida += ('+');
     };
-    console.log(saida);
+    return (saida);
 };
